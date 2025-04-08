@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List App</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>My To-Do List</title>
+  </head>
+  <body>
+    <section class="container-todo">
+      <h1>My To-Do List</h1>
+
+      <div class="input">
+        <input class="input-field" type="text" placeholder="Add a new task..." />
+      </div>
+
+      <button class="btn">Add Task</button>
+      <button class="removeBtn">Clear All</button>
+      <ul>
+        <li id="todoList"></li>
+      </ul>
+      <div>
+        <p class="task-summary">Total Tasks:</p>
+      </div>
+    </section>
+    <footer>
+      <p>
+        &copy; 2025 | Created by <strong>Tatiana Gerzenstein</strong> - Pre
+        Academy
+        <a href="https://mobydigital.com" target="_blank">Moby Digital</a>
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
 </html>
